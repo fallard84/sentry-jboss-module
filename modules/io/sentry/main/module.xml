@@ -1,0 +1,10 @@
+<module xmlns="urn:jboss:module:1.0" name="io.sentry">  
+	<dependencies>
+		<module name="org.slf4j"/>
+	</dependencies>
+	<resources>  
+		<resource-root path="sentry-1.7.2.jar"/> 
+		<resource-root path="jackson-core-2.8.7.jar"/>
+		<resource-root path="jboss-jsse-api_8.0_spec-1.0.0.Final.jar"/>
+	</resources>  
+</module>  
